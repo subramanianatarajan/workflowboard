@@ -139,3 +139,11 @@ export default class Item {
         `).children[0];
     }
 }
+
+// Add the event listener for the logout button
+document.getElementById("logoutBtn").addEventListener("click", () => {
+    // Add any logout logic here (e.g., clearing user data, session storage, etc.)
+    
+    // Redirect the user to the login screen
+    window.location.href = "login.html"; // Adjust the URL as needed
+});

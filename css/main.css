@@ -10,11 +10,11 @@
 
 .kanban__column {
 	flex: 1;
-	background: #a7a7a7; /* Added background color for columns */
+	background: #a7a7a7; 
 	padding: 15px;
 	border-radius: 5px;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
-	margin-right: 15px; /* Reduced margin between columns */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+	margin-right: 15px; 
 }
 
 .kanban__column-title {
@@ -39,15 +39,15 @@
 
 .kanban__dropzone--active {
 	height: 20px;
-	background: rgba(0, 0, 0, 0.1); /* Updated background color */
+	background: rgba(0, 0, 0, 0.1); 
 }
 
 .kanban__add-item {
 	width: 100%;
 	padding: 10px 0;
 	font-size: 16px;
-	color: #f7f1f1; /* Changed button color */
-	background: #303031; /* Changed button background color */
+	color: #f7f1f1; 
+	background: #303031; 
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
@@ -55,9 +55,23 @@
 }
 
 .kanban__add-item:hover {
-	background: #f79b2b; /* Darker background color on hover */
+	background: #f79b2b; 
 }
 .kanban__item-timestamp {
-    font-size: 12px; /* Reduced font size for timestamp */
-    font-style: italic; /* Make the timestamp text italic */
+    font-size: 12px;
+    font-style: italic; 
+}
+.button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Increase padding for larger button size */
+    margin-top: 10px;
+    border-radius: 8px; /* Increase border radius for a rounded button */
+    cursor: pointer;
+    float: right; /* Float the button to the right */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
 }

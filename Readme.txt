@@ -38,7 +38,6 @@ Navigate to the project directory: cd workflowboard
 Starting the Application:
 
 Run the application by opening the start page: /login.html
-
 Log in using your email and password authenticated via Firebase
 
 demo@demo.com
