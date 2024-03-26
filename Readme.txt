@@ -30,7 +30,7 @@ Data Storage: Web Storage (Local Storage)
 
 Installation:
 
-Clone the repository: git clone https://github.com/your-repo-url.git
+Clone the repository: git clone https://github.com/subramanianatarajan/workflowboard.git
 
 Navigate to the project directory: cd workflowboard
 
